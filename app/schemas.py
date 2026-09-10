@@ -6,8 +6,8 @@ from pydantic import BaseModel, ConfigDict, Field
 
 
 class UserRole(str, Enum):
-    admin = "admin"
-    surveyor = "surveyor"
+    admin = "Admin"
+    surveyor = "Surveyor"
 
 
 class RegisterDto(BaseModel):
